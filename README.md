@@ -21,7 +21,7 @@ Ensure you have Python 3.8+ installed.
 git clone https://github.com/adwitiyasinghsunil/AIBA.git
 cd AIBA
 
-then run this----
+##then run this----
 
 
 #on windows only
