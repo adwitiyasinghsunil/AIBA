@@ -35,7 +35,5 @@ pip install rich opencv-python numpy pyautogui pyaudio SpeechRecognition transfo
 #on linux only(for audio recognition failures)----
 
 
+sudo apt-get update && sudo apt-get install -y python3-pyaudio portaudio19-dev
 
-if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-    sudo apt-get update && sudo apt-get install -y python3-pyaudio portaudio19-dev
-fi
