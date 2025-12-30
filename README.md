@@ -18,5 +18,15 @@ Ensure you have Python 3.8+ installed.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.adwitiyasinghsunil/AIBA.git](https://github.com/adwitiyasinghsunil/AIBA.git)
+git clone https://github.com/adwitiyasinghsunil/AIBA.git
 cd AIBA
+
+
+pip install --upgrade pip
+pip install rich opencv-python numpy pyautogui pyaudio SpeechRecognition transformers torch hf_xet
+
+
+
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    sudo apt-get update && sudo apt-get install -y python3-pyaudio portaudio19-dev
+fi
