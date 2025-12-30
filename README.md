@@ -21,9 +21,18 @@ Ensure you have Python 3.8+ installed.
 git clone https://github.com/adwitiyasinghsunil/AIBA.git
 cd AIBA
 
+then run this----
+
+
+#on windows only
 
 pip install --upgrade pip
 pip install rich opencv-python numpy pyautogui pyaudio SpeechRecognition transformers torch hf_xet
+
+
+
+
+#on linux only(for audio recognition failures)----
 
 
 
